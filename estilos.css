@@ -19,7 +19,7 @@ header {
 .menu-header {
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 24px;
     transition: color 0.7s ease;
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .menu-header2 h1 {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 
@@ -395,6 +395,8 @@ details [open] summary ::before {
     font-size: 12px;
     margin: 3px;
 }
+
+
 @media (max-width:640px) {
     .wrap-two-column {
         grid-template-columns: 1fr;
@@ -407,3 +409,29 @@ details [open] summary ::before {
         width: 100vw;
     }
 }
+
+@media (max-width:640px) {
+    .contenedor-de-boton{
+        display: flex;
+        justify-content: end;
+        z-index: 999;
+        align-items: center;
+    }
+}
+
+@media (max-width:640px) {
+    .menu-header {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        transition: color 0.7s ease;
+    }
+    .menu-header li {
+        list-style: none;
+        padding: 10px;
+    }
+    .menu-header2 h1 {
+        font-size: 48px;
+    }
+}
+
