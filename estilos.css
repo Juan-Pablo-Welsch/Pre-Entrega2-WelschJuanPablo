@@ -184,11 +184,6 @@ footer {
 }
 
 .caja-servicios {
-    background-image: url("./Images/sociales.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 400px;
-    width: 600px;
     margin-bottom: 50px;
     margin-left: 10px;
 }
@@ -218,11 +213,6 @@ footer {
 
 
 .caja-servicios2 {
-    background-image: url("./Images/Desarrollo.jpg");
-    background-size: cover;
-    background-position: left left ;
-    height: 400px;
-    width: 600px;
     margin-right: 10px;
     margin-bottom: 50px;
 }
@@ -251,11 +241,6 @@ footer {
 }
 
 .caja-servicios3 {
-    background-image: url("./Images/Wordpress.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 400px;
-    width: 600px;
     margin-bottom: 50px;
     margin-left: 10px;
 }
@@ -432,6 +417,12 @@ details [open] summary ::before {
     }
     .menu-header2 h1 {
         font-size: 48px;
+    }
+    .derechos {
+        font-size: 12px;
+    }
+    .contactanos {
+        font-size: 14px;
     }
 }
 
