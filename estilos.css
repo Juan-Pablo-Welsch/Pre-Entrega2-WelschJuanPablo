@@ -381,6 +381,10 @@ details [open] summary ::before {
     margin: 3px;
 }
 
+.volverarriba {
+   text-decoration: none;
+   color: white;
+}
 
 @media (max-width:640px) {
     .wrap-two-column {
