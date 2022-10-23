@@ -338,9 +338,9 @@ details [open] summary ::before {
     }
     button {
         max-width: fit-content;
-    padding: 5px;
-    font-size: 12px;
-    margin: 3px;
+        padding: 5px;
+        font-size: 12px;
+        margin: 3px;
     }
 }
 
@@ -390,6 +390,9 @@ details [open] summary ::before {
     }
     .contactanos {
         font-size: 14px;
+    }
+    .column-half {
+        justify-content: center;
     }
 }
 

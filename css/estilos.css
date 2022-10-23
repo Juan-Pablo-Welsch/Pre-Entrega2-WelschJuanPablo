@@ -332,4 +332,6 @@ details [open] summary ::before {
   .derechos {
     font-size: 12px; }
   .contactanos {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .column-half {
+    justify-content: center; } }
