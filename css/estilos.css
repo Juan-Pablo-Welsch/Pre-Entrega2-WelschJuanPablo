@@ -284,7 +284,8 @@ details [open] summary ::before {
 .wrap-two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px; }
+  column-gap: 40px;
+  align-items: center; }
 
 .formulario {
   display: flex;

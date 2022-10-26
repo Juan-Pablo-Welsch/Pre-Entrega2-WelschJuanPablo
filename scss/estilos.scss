@@ -327,6 +327,7 @@ details [open] summary ::before {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
+    align-items: center;
 }
 
 .formulario {
